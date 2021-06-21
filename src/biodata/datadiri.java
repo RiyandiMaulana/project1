@@ -12,6 +12,11 @@ public class datadiri  {
     public String nohp;
     public String status;
 
+    public datadiri() {
+        this.namalengkap = "Muhammad Riyandi Mualana";
+        this.namapanggilan = "Yandi";
+        this.gmail = "MaulanaRiyandi0@gmail.com";
+    }
 
     public void data() {
         System.out.println("BIODATA DIRI");

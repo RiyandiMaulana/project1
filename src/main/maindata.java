@@ -9,6 +9,11 @@ public class maindata {
         datadiri bio = new datadiri();
         bio.data();
 
+        datadiri v = new datadiri();
+        System.out.println(v.namalengkap);
+        System.out.println(v.namapanggilan);
+        System.out.println(v.gmail);
+
         datadiri d1 = new datadiri();
         d1.namalengkap = "Muhammad Riyandi Maulana";
         d1.namapanggilan= "Yandi";
