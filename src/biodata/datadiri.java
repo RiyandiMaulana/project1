@@ -12,6 +12,70 @@ public class datadiri  {
     public String nohp;
     public String status;
 
+    public String getNamalengkap() {
+        return namalengkap;
+    }
+
+    public void setNamalengkap(String namalengkap) {
+        this.namalengkap = namalengkap;
+    }
+
+    public String getNamapanggilan() {
+        return namapanggilan;
+    }
+
+    public void setNamapanggilan(String namapanggilan) {
+        this.namapanggilan = namapanggilan;
+    }
+
+    public String getTempatlahir() {
+        return tempatlahir;
+    }
+
+    public void setTempatlahir(String tempatlahir) {
+        this.tempatlahir = tempatlahir;
+    }
+
+    public String getTanggallahir() {
+        return tanggallahir;
+    }
+
+    public void setTanggallahir(String tanggallahir) {
+        this.tanggallahir = tanggallahir;
+    }
+
+    public String getJeniskelamin() {
+        return jeniskelamin;
+    }
+
+    public void setJeniskelamin(String jeniskelamin) {
+        this.jeniskelamin = jeniskelamin;
+    }
+
+    public String getGmail() {
+        return gmail;
+    }
+
+    public void setGmail(String gmail) {
+        this.gmail = gmail;
+    }
+
+    public String getNohp() {
+        return nohp;
+    }
+
+    public void setNohp(String nohp) {
+        this.nohp = nohp;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public datadiri() {
         this.namalengkap = "Muhammad Riyandi Mualana";
         this.namapanggilan = "Yandi";

@@ -8,6 +8,29 @@ public class dataortu extends datadiri {
     public String namaibu;
     public String not;
 
+    public String getNamaayah() {
+        return namaayah;
+    }
+
+    public void setNamaayah(String namaayah) {
+        this.namaayah = namaayah;
+    }
+
+    public String getNamaibu() {
+        return namaibu;
+    }
+
+    public void setNamaibu(String namaibu) {
+        this.namaibu = namaibu;
+    }
+
+    public String getNot() {
+        return not;
+    }
+
+    public void setNot(String not) {
+        this.not = not;
+    }
 
     public void ortu(){
         System.out.println("Nama Ayah : " +namaayah);
