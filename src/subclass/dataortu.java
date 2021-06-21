@@ -8,6 +8,18 @@ public class dataortu extends datadiri {
     public String namaibu;
     public String not;
 
+    @Override
+    public String getNamalengkap() {
+        return super.getNamalengkap();
+    }
+
+    @Override
+    public void setNamalengkap(String namalengkap) {
+        super.setNamalengkap(namalengkap);
+    }
+
+
+
     public String getNamaayah() {
         return namaayah;
     }
